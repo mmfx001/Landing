@@ -1,0 +1,132 @@
+.navbar-container {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.navbar-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 7%;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: white;
+}
+
+.navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #37447E; 
+    z-index: 2;
+    margin-right: 80px;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #505F98;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-links li a:hover {
+    color: #0b1338;
+}
+
+.navbar-buy-now {
+    background-color: #111B47;
+    color: white;
+    border: none;
+    padding: 0.5rem 3rem;
+    z-index: 2;
+    margin-right: 100px;
+    font-size: 0.8rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(8, 6, 74, 0.3);
+    transition: all 0.3s ease;
+}
+
+.navbar-buy-now:hover {
+    background-color: #0b1338;
+    transform: translateY(-2px);
+}
+
+.navbar-bottom {
+    display: flex;
+    width: "full";
+    padding: 0 7%;
+}
+
+.navbar-ui {
+    width: 57%;
+    padding: 7% 0;
+    text-align: left;
+}
+
+.navbar-button-group {
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    gap: 16px;
+}
+
+.navbar-button-primary {
+    background-color: #111B47;
+    color: white;
+    border: none;
+    padding: 0.5rem 3rem;
+    font-size: 0.8rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(17, 27, 71, 0.3);
+    transition: all 0.3s ease;
+}
+
+.navbar-button-secondary {
+    border: 1px solid #111B47;
+    color: #111B47;
+    padding: 0.5rem 3rem;
+    font-size: 0.8rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(17, 27, 71, 0.3);
+    transition: all 0.3s ease;
+}
+
+.navbar-button-primary:hover {
+    background-color: #0d1539;
+    transform: translateY(-2px);
+}
+
+.navbar-button-secondary:hover {
+    background-color: #efefef;
+    transform: translateY(-2px);
+}
+
+.navbar-images {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2%;
+    position: relative;
+}
+
+.navbar-image {
+    width: 112.8%;
+    height: auto; 
+    z-index: 0;
+    position: relative;
+
+    margin-top: -25%; 
+}

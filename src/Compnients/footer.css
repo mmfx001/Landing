@@ -1,0 +1,147 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6% 6%;
+    width: "full";
+    background-color: #E7ECFF;
+}
+
+.footer-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: -70px;
+    color: #37447E;
+    z-index: 2;
+}
+
+.footer-nav-links {
+    list-style: none;
+    display: flex;
+    gap: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-nav-links li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #505F98;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.footer-nav-links li a:hover {
+    color: #091133;
+}
+
+.footer-buy-now {
+    background-color: #111B47;
+    color: white;
+    border: none;
+    padding: 0.5rem 3rem;
+    z-index: 2;
+    font-size: 0.8rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(60, 55, 163, 0.3);
+    transition: all 0.3s ease;
+    margin-right: 100px;
+}
+
+.footer-description {
+    margin-left: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 160px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.footer-buy-now:hover {
+    background-color: #0b1338;
+    transform: translateY(-2px);
+}
+.main-buy-now:hover {
+    background-color: #0b1338;
+    transform: translateY(-2px);
+}
+.main-buy-now {
+    background-color: #111B47;
+    color: white;
+    border: none;
+    padding: 0.5rem 3rem;
+    margin-top: 10px;
+    width: 200px;
+    z-index: 2;
+    font-size: 0.8rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(60, 55, 163, 0.3);
+    transition: all 0.3s ease;
+}
+
+
+.footer-section {
+    display: flex;
+    z-index: 1;
+    flex-direction: column;
+    background: #E7ECFF;
+}
+
+.footer-navbar-images {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2%;
+    position: relative;
+}
+
+.footer-navbar-img {
+    width: 100%;
+    height: auto;
+    z-index: 0;
+    position: relative;
+    margin-top: -25%;
+}
+
+.footer-navbar-bottom {
+    display: flex;
+    width: 100%;
+    padding: 0 7%;
+}
+
+.footer-navbar-ui {
+    width: 57%;
+    padding: 7% 0;
+    text-align: left;
+}
+
+hr {
+    margin-right: 190px;
+    margin-left: 145px;
+}
+
+.footer-icon-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-icon {
+    width: 22px;
+}
+
+.footer-icon-small {
+    width: 12px;
+}
+
+.footer-bottom-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 190px;
+    margin-left: 145px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
